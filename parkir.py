@@ -1,8 +1,8 @@
 %%writefile parkir.py
 # ======================================================
-# Aplikasi AI Dummy - Prediksi Potensi Retribusi Parkir
+# Aplikasi AI - Prediksi Potensi Retribusi Parkir 
 # Kota Cilegon
-# Kelompok 4 - Sistem Informasi, Kampus Cilegon
+# Kelompok 4 - Sistem Informasi, Universitas Siber Asia
 # ======================================================
 
 import streamlit as st
@@ -14,8 +14,8 @@ import numpy as np
 from streamlit_folium import st_folium
 
 # Konfigurasi halaman
-st.set_page_config(page_title="AI Parkir Cilegon", layout="wide")
-st.title("🚗 Aplikasi AI Parkir Cilegon")
+st.set_page_config(page_title="AI Parkir Cilegon menggunakan Streamlit", layout="wide")
+st.title("🚗 Aplikasi AI Retribusi Parkir")
 st.markdown("### Prediksi dan Visualisasi Potensi Retribusi Parkir Menggunakan Kecerdasan Buatan")
 
 # Inisialisasi session_state untuk menyimpan lokasi parkir
@@ -141,4 +141,4 @@ st_data = st_folium(m, width=700, height=400)
 # FOOTER
 # ===============================
 st.markdown("---")
-st.caption("© 2025 Kelompok 4 – Sistem Informasi, Kampus Cilegon | Dibuat dengan ❤️ menggunakan Streamlit")
+st.caption("© 2025 Kelompok 4 – Sistem Informasi, Universitas Siber Asia | Dibuat dengan ❤️ menggunakan Streamlit")
