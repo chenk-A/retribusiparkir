@@ -10,6 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 import folium
+import numpy as np
 from streamlit_folium import st_folium
 
 # Konfigurasi halaman
